@@ -6,7 +6,7 @@ import json
 
 # Load the model architecture from JSON file
 json_file = open(
-    "/Users/arjun/Documents/KrishiSahay/python-whatsapp-bot/app/utils/model/new1model_architecture.json",
+    "/Users/arjunc/Documents/buidl/hack/KRISHI_SAHAY/python-whatsapp-bot/app/utils/model/new1model_architecture.json",
     "r",
 )
 loaded_model_json = json_file.read()
@@ -20,7 +20,7 @@ model = model_from_json(loaded_model_json)
 
 # Load the trained weights
 model.load_weights(
-    "/Users/arjun/Documents/KrishiSahay/python-whatsapp-bot/app/utils/model/new1model_weights.h5"
+    "/Users/arjunc/Documents/buidl/hack/KRISHI_SAHAY/python-whatsapp-bot/app/utils/model/new1model_weights.h5"
 )
 
 
