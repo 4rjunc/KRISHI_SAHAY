@@ -127,7 +127,7 @@ def get_text_message_input(recipient, type, text, lang="en"):
                     "type": "text",
                     "text": {
                         "preview_url": False,
-                        "body": f" 🦠 *Disease* : {text['Name']}\n📃 *Description* : {text['Description']}\n👀 *Symptoms* : {text['Symptoms']}\n🧪 *Chemical Solution* : {text['Solutions']['Chemical'][0]}\n☘️ *Organic Solution* : {text['Solutions']['Organic'][0]}",
+                        "body": f" 🦠 *Disease* : {text['Name']}\n📃 *Description* : {text['Description']}\n🔴 *Lack Of* : {text['RequiredNutirents']}  \n👀 *Symptoms* : {text['Symptoms']}\n🧪 *Chemical Solution* : {text['Solutions']['Chemical'][0]}\n☘️ *Organic Solution* : {text['Solutions']['Organic'][0]}",
                     },
                 }
             )
@@ -334,7 +334,7 @@ def process_whatsapp_message(body):
         print(f"sent image {image_filename}")
         logging.info(f"sent image {image_filename}")
         response = predict_image_class(
-            "/Users/arjun/Documents/KrishiSahay/python-whatsapp-bot/temp.jpeg"
+            "/Users/arjunc/Documents/buidl/hack/KRISHI_SAHAY/python-whatsapp-bot/temp.jpeg"
         )
 
         print(f"{response=}")

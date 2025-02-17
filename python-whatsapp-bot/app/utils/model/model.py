@@ -37,11 +37,11 @@ def predict_image_class(image_path):
     # Modify this logic based on how your classes are determined
     class_label = {
         "Downey Mildew": 0,
-        #       "Healthy cucumberleaf": 1,
+        #"Healthy cucumberleaf": 1,
         "Pepper__bell___Bacterial_spot": 1,
         "Pepper__bell___healthy": 2,
         "Tomato__Tomato_YellowLeaf__Curl_Virus": 3,
-        # "Tomato__Tomato_mosaic_virus": 5,
+        #"Tomato__Tomato_mosaic_virus": 5,
         "Tomato_healthy": 4,
     }
     disease_type = list(class_label.keys())[list(class_label.values()).index(class_idx)]

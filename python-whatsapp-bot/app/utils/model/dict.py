@@ -19,6 +19,7 @@ Downey_Mildew = {
 Pepper__bell___Bacterial_spot = {
     "Name": "Bacterial Leaf Spot (Pepper)",
     "Description": "A leaf spot is a limited, discoloured, diseased area of a leaf that is caused by bacteria, or by injuries from nematodes, insects, environmental factors, toxicity of herbicides. ",
+    "RequiredNutirents":"Nitrogen, Phosphorus and Potassium",
     "Symptoms": "Bacterial leaf spots show as necrotic, circular or angular lesions and may have a yellowish outline or halo.",
     "Solutions": {
         "Cultural": [
@@ -60,6 +61,7 @@ Tomato__Tomato_mosaic_virus = {
 Tomato__Tomato_YellowLeaf__Curl_Virus = {
     "Name": "Tomato Yellow Leaf Curl Virus",
     "Description": "TYLCV causes the most destructive disease of tomato, and it can be found in tropical and subtropical regions causing severe economic losses. ",
+    "RequiredNutirents":"Phosphorus and Potassium",
     "Symptoms": "The most characteristic symptom is the upward curling of the leaves. The leaf margins may become severely curled, giving the plant a distinctive appearance. Infected leaves often exhibit yellowing, particularly along the veins. ",
     "Solutions": {
         "Cultural": [
